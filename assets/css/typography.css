@@ -2,6 +2,6 @@
   font-family: 'Kaushan Script';
   font-style: normal;
   font-weight: 400;
-  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(../fonts/kaushan-script.woff) format('woff');
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(../font/kaushan-script.woff) format('woff');
 }
 
