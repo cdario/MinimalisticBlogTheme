@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   {{! Page Meta }}
-  <title>{{@blog.title}}</title>
+  <title>{{#if meta_title}} {{meta_title}} | {{/if}}{{@blog.title}} </title>
   <meta name="description" content="{{@blog.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="{{asset "css/styles.css"}}">
   <link rel="shortcut icon" type="image/png" href="{{@blog.logo}}"/>
   {{ghost_head}}
-  <script async src="{{asset "js/vendor/modernizr-2.8.0.min.js"}}"></script>
+  <script src="{{asset "js/vendor/modernizr-2.8.0.min.js"}}"></script>
 </head>
 <body class="{{body_class}}">
         <!--[if lt IE 8]>
