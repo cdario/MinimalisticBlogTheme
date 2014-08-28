@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   {{! Page Meta }}
-  <title>{{#if meta_title}} {{meta_title}} | {{/if}}{{@blog.title}} </title>
-  <meta name="description" content="{{@blog.description}}">
+  <title>{{meta_title}} </title>
+  <meta name="description" content="{{meta_description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
@@ -21,15 +21,9 @@
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
-
-
             <header class="site-header" style="background-image:url({{@blog.cover}})">
-
-            <a class="logo ir" href="{{@blog.url}}" title="{{@blog.title}}">
-            
-            <div class="main-title">
-                      {{@blog.description}}
-            </div>
+            <a class="logo ir" href="#">
+              <div class="main-title">{{@blog.description}}</div>
             </a> 
           <!-- <h2>              
           <a class="maintitle" href="{{@blog.url}}" title="{{@blog.title}}">{{@blog.description}}</a>
