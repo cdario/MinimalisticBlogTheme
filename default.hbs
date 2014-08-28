@@ -23,11 +23,16 @@
             <header class="site-header" style = "background:#354B5E url({{@blog.cover}}) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;color:#fff;text-align:center;position:relative;height:400px;transition:all 0.3s ease">
              
               
-<!--               <a class="logo ir" href="{{@blog.url}}" title="{{@blog.title}}">{{@blog.description}}</a>  -->
-<!-- <h2>              
-<a class="maintitle" href="{{@blog.url}}" title="{{@blog.title}}">{{@blog.description}}</a>
-              </h2>
- -->            </header>
+          <a class="logo ir" href="{{@blog.url}}" title="{{@blog.title}}">
+          
+            <h2 style="text-align:center;line-height:35px;font:4.375em 'Grand Hotel', sans-serif;margin:15% 0 5%; color:#354B5E;">
+                      {{@blog.description}}
+            </h2>
+          </a> 
+          <!-- <h2>              
+          <a class="maintitle" href="{{@blog.url}}" title="{{@blog.title}}">{{@blog.description}}</a>
+          </h2> -->
+            </header>
             
             {{{body}}}
 
