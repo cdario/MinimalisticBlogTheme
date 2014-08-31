@@ -9,7 +9,7 @@
   font-family: 'Noto Serif';
   font-style: normal;
   font-weight: 400;
-  src: local('Noto Serif'), local('NotoSerif'), url(../font/NotoSerif-Regular.woff) format('woff');
+  src: local('Noto Serif'), local('NotoSerif'), url(../font/NotoSerif.woff) format('woff');
 }
 @font-face {
   font-family: 'Noto Serif';
