@@ -36,7 +36,7 @@
               <div class="container clearfix">
                
                 <a class="icon-rss" href="{{@blog.url}}/rss/" title="RSS Feed"></a>
-                <p>All content copyright <a href="{{@blog.url}}" title="// Computer scientist &amp; full-stack developer">{{@blog.title}}</a> &copy; 2014. All rights reserved.</p>
+                <p>All content copyright to <a href="{{@blog.url}}" title="// Computer scientist &amp; full-stack developer">{{@blog.title}}</a> &copy; 2014. All rights reserved.</p>
                 <p>Proudly published with Ghost. Theme by <a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a></p>
                 
               </div>
@@ -45,8 +45,8 @@
             {{ghost_foot}}
 
 
-            <script async src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-            <script>window.jQuery || document.write('<script src="{{asset "js/vendor/jquery-1.11.0.min.js"}}"><\/script>')</script>
+            <script async src="{{asset "js/vendor/jquery-1.11.0.min.js"}}"></script>
+            <!--script>window.jQuery || document.write('<script src="{{asset "js/vendor/jquery-1.11.0.min.js"}}"><\/script>')</script-->
             <script src="{{asset "js/plugins.js"}}"></script>
             <script src="{{asset "js/main.js"}}"></script>
 
